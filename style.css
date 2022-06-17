@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url('bg-intro-desktop.png');
+    background-color: #ff7a7a;
+    font-size: 16px;
+}
+main{
+    display: flex;
+    width:100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5%;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.right-side h3{
+    border: 1px solid transparent;
+    padding: 7px;
+    background-color: #6055a5;
+    width: 400px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 7px 5px -5px grey;
+
+}
+
+.right-side h3 span{
+    color: #f2f2f2;
+    font-weight: 400;
+}
+
+.right-side form{
+    border: 1px solid black;
+    width: 350px;
+    padding: 2em;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 10px 5px -5px grey;
+  
+}
+input{
+    margin-top: 15px;
+    width: 330px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: black;
+}
+
+.btn{
+    margin-top: 15px;
+    width: 350px;
+    background-color: #38cc8c;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+  
+}
+
+.right-side p{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+    color: #b9b6d3;
+    font-weight: 400;
+    font-size: 9px;
+}
+.right-side p span{
+    color: #ff7a7a;
+   
+}
+
+.left-side h3{
+    color: white;
+    font-size: 40px;
+}
+
+.left-side p{
+    color: white;
+    font-size: 13px;
+   
+}
