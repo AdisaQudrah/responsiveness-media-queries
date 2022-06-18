@@ -97,3 +97,35 @@ input{
     font-size: 13px;
    
 }
+
+
+.rightform[data-error]::after{
+    content: attr(data-error);
+    font-size: 10px;
+    color: #ff7a7a;
+    display: block;
+    float:right;
+}
+
+input:invalid{
+    outline: none;
+    border: 1px solid #ff7a7a;
+    background-image: url('icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+
+    
+}
+input:invalid+span{
+    display: inline;
+    color: #ff7a7a;
+   font-size: 14px;
+
+}
+
+input:valid{
+    outline: none;
+    border: none;
+    border: 1px solid  #38cc8c;
+}
